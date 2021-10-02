@@ -51,6 +51,16 @@ img {
 .spanIt {
 	grid-column: span 2;
 }
+.message-container {
+	width: 80vw;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	font-size: 2vw;
+	font-weight: 600;
+}
 @media screen and (min-width: 484px) {
 	.App {
 		display: grid;
