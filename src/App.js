@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
 	const [data, setData] = useState([])
-	const query = `https://api.unsplash.com/photos/random/?count=20&client_id=${process.env.REACT_APP_UNSPLASH_KEY}`
+	const query = `https://api.unsplash.com/photos/random/?count=30&client_id=${process.env.REACT_APP_UNSPLASH_KEY}`
 
 	useEffect(() => {
 		axios
@@ -18,13 +18,14 @@ function App() {
 
 	return (
 		<div className="App">
-			{data.map(({ id, width, height, urls: { regular } }) => (
+			{data.map(({ id, width, height, alt_description, urls: { regular } }) => (
 				<ImageCard
 					key={id}
 					id={id}
 					width={width}
 					height={height}
 					imageURL={regular}
+					alt_description={alt_description}
 				/>
 			))}
 		</div>
