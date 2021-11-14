@@ -1,4 +1,4 @@
-<h1 align="center"  >Image Masonry challenge word added here</h1>
+<h1 align="center"  >Image Masonry challenge</h1>
 
 A Simple Image Masonry App, where we fetch data from the Unsplash API and display them using the lazy loading approach with the help of the React-lazy-load-image-component package.
 
@@ -28,4 +28,4 @@ yarn start
 
 3. create a .env file in the root folder and add the following line:
    REACT_APP_UNSPLASH_KEY=Your Access Key
-   just a random test added here so that i can test the feture
+   just a random test added here so that i can test the feture and I added these world also
