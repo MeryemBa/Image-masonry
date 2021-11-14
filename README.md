@@ -1,4 +1,4 @@
-<h1 align="center"  >Image Masonry</h1>
+<h1 align="center"  >Image Masonry challenge</h1>
 
 A Simple Image Masonry App, where we fetch data from the Unsplash API and display them using the lazy loading approach with the help of the React-lazy-load-image-component package.
 
